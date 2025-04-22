@@ -1,51 +1,93 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+* {
+    box-sizing: border-box;
     margin: 0;
-    padding: 20px;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e9ecef;
+    padding: 50px 20px;
 }
 
 .container {
     max-width: 600px;
     margin: 0 auto;
     background: #ffffff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
 h1, h2 {
     text-align: center;
+    color: #343a40;
 }
 
 form {
     display: flex;
     flex-direction: column;
+    margin-bottom: 20px;
 }
 
-input, select, button {
+input, select {
     margin: 10px 0;
-    padding: 10px;
+    padding: 12px 15px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+input:focus, select:focus {
+    border-color: #80bdff;
+    outline: none;
 }
 
 button {
-    background-color: #28a745;
-    color: #fff;
+    background-color: #007bff;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 12px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 button:hover {
-    background-color: #218838;
+    background-color: #0056b3;
 }
 
-.red {
-    color: red;
+ul {
+    list-style-type: none;
 }
 
 .lista-gasto {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    transition: background-color 0.3s;
+}
+
+.lista-gasto:hover {
+    background-color: #e2e6ea;
+}
+
+.red {
+    color: red;
+}
+
+button {
+    margin-left: 10px;
+}
+
+.categoria {
+    font-weight: bold;
+    margin-left: 5px;
 }
