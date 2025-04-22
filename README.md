@@ -13,3 +13,9 @@ Esta é uma simples aplicação web para calcular e gerenciar gastos diários. O
 
 
 <img src="Img/Fucionalidades.png" style="border-radius: 50px;" alt="1.2 Fucionalidades">
+
+## Tecnologias Utilizadas
+
+- **HTML**: Estruturação do conteúdo da página.
+- **CSS**: Estilização e layout da aplicação.
+- **JavaScript**: Lógica da aplicação e manipulação do DOM.
