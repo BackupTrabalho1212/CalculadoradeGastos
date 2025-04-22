@@ -1,3 +1,6 @@
+/* Importando a fonte Poppins do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -5,7 +8,7 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Poppins', sans-serif; /* Aplica a fonte Poppins */
     background-color: #e9ecef;
     padding: 50px 20px;
 }
@@ -22,6 +25,7 @@ body {
 h1, h2 {
     text-align: center;
     color: #343a40;
+    font-weight: 500; /* Define o peso da fonte */
 }
 
 form {
@@ -37,6 +41,7 @@ input, select {
     border-radius: 5px;
     font-size: 16px;
     transition: border-color 0.3s;
+    font-family: 'Poppins', sans-serif;
 }
 
 input:focus, select:focus {
@@ -53,6 +58,8 @@ button {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
+    font-family: 'Poppins', sans-serif; /* Aplica a fonte Poppins */
+    font-weight: 600; /* Define um peso de fonte mais espesso */
 }
 
 button:hover {
@@ -90,4 +97,5 @@ button {
 .categoria {
     font-weight: bold;
     margin-left: 5px;
+    font-family: 'Poppins', sans-serif; /* Aplica a fonte Poppins */
 }
